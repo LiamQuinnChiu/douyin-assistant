@@ -1,0 +1,10 @@
+# 本项目自带内嵌 Python 3.12（.python312/），依赖已装入其中。
+# 直接用 start.bat 运行；如需重装依赖：
+#   .python312\python.exe -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# GUI
+PySide6>=6.9
+# 模型接口（OpenAI 兼容，默认 DeepSeek）
+requests>=2.32
+# 抖音网页版私信（浏览器自动化，用系统 Edge/Chrome，无需下载浏览器）
+playwright>=1.62

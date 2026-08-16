@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+config.json
+.venv/
+venv/
+.python312/
+.douyin_profile/
+dist/
+build/
